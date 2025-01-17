@@ -1,4 +1,4 @@
-### Loudness-Dancingability-Energy-to-Analyze-The-Homogeneity-Of-Pop-Music
+# Loudness-Dancingability-Energy-to-Analyze-The-Homogeneity-Of-Pop-Music
 
 # This project analyzes the homogeneity of pop music from 1970 to 2020 using metrics such as loudness, dancingability, and energy. By leveraging data scraping, Spotify API, and data visualization, the project explores trends and correlations in pop music over the decades.
 
