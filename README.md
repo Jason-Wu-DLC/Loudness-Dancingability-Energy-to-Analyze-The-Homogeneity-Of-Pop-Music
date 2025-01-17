@@ -1,7 +1,33 @@
 # Loudness-Dancingability-Energy-to-Analyze-The-Homogeneity-Of-Pop-Music
 
-# This project analyzes the homogeneity of pop music from 1970 to 2020 using metrics such as loudness, dancingability, and energy. By leveraging data scraping, Spotify API, and data visualization, the project explores trends and correlations in pop music over the decades.
+# Loudness, Dancingability, and Energy Analysis of Pop Music
 
-# The workflow begins by scraping Billboard Hot 100 data for each year. Then, Spotify track IDs are retrieved for each song, and audio features such as danceability, energy, and loudness are extracted. The data is cleaned and analyzed for statistical trends, correlations, and insights. Visualizations provide a clear understanding of how these attributes have evolved over time.
+This project investigates the homogeneity of pop music from 1970 to 2020 using metrics like loudness, dancingability, and energy. By combining data scraping, Spotify API integration, and visualization, it explores trends and correlations in pop music across five decades.
 
-# Key scripts include 01-scraping.py for data collection, 02-gettrackid.py and 03-getaudiofeatures.py for Spotify data integration, and 04-cleaning.py for preprocessing. Results are visualized using 07-danceability_all.py, 08-energy_all.py, and 09-loudness_all.py.
+# Workflow
+
+Data Collection: Billboard Hot 100 data is scraped annually.
+
+Spotify Integration: Track IDs are retrieved for each song, followed by the extraction of audio features such as danceability, energy, and loudness.
+
+Data Cleaning: The collected data is cleaned to ensure accuracy and consistency.
+
+Analysis: Statistical trends and correlations are analyzed to uncover insights.
+
+Visualization: Graphs illustrate how pop music characteristics have evolved over time.
+
+# Key Scripts
+
+01-scraping.py: Collects Billboard data.
+
+02-gettrackid.py and 03-getaudiofeatures.py: Fetch Spotify track IDs and audio features.
+
+04-cleaning.py: Preprocesses and cleans data.
+
+Visualization:
+
+07-danceability_all.py: Danceability trends.
+
+08-energy_all.py: Energy trends.
+
+09-loudness_all.py: Loudness trends.
